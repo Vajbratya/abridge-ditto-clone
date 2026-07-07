@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SITE_ORIGIN } from "../../lib/site";
+import { OG_ASSET_ORIGIN, SITE_ORIGIN } from "../../lib/site";
 import { LaudosFooter, LaudosHeader } from "../laudos-shell";
 import {
   allLaudosPages,
@@ -18,7 +18,7 @@ import {
   slugLabel,
 } from "../laudos-page-utils";
 
-const ogImage = "/assets/laudos/opengraph-image.png";
+const ogImage = `${OG_ASSET_ORIGIN}/assets/laudos/opengraph-image.png`;
 
 type PageParams = {
   params: Promise<{ slug: string[] }>;

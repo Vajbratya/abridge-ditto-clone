@@ -2,12 +2,12 @@ import "./globals.css";
 import "./ditto.css";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { SITE_ORIGIN } from "../lib/site";
+import { OG_ASSET_ORIGIN, SITE_ORIGIN } from "../lib/site";
 
 const title = "Laudos.AI · Software de laudo radiológico com IA assistiva";
 const description =
   "Software assistivo para clínicas de radiologia entregarem laudos mais rápidos, com menos digitação, menos retrabalho, revisão antes do envio e médico no controle.";
-const ogImage = "/assets/laudos/opengraph-image.png";
+const ogImage = `${OG_ASSET_ORIGIN}/assets/laudos/opengraph-image.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
