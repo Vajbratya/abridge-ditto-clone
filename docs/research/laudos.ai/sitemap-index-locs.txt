@@ -1,0 +1,10 @@
+https://www.laudos.ai/sitemap/pages.xml
+https://www.laudos.ai/sitemap/modalidades.xml
+https://www.laudos.ai/sitemap/glossario.xml
+https://www.laudos.ai/sitemap/classificacoes.xml
+https://www.laudos.ai/sitemap/guias.xml
+https://www.laudos.ai/sitemap/comparacoes.xml
+https://www.laudos.ai/sitemap/solucoes.xml
+https://www.laudos.ai/sitemap/integracoes.xml
+https://www.laudos.ai/sitemap/blog.xml
+https://www.laudos.ai/sitemap/templates.xml

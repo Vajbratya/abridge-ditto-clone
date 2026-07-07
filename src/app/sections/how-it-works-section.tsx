@@ -6,20 +6,20 @@ const MediaLink_data: MediaLinkData[] = [
     { ariacontrols: "panel1", ariaselected: "true", id: "tab1", icon: <>
           <circle data-indicator-dot="" cx="10" cy="10" r="3" fill="currentColor" style={{ transition: "opacity 200ms ease-out", opacity: "0" }} />
           <circle data-indicator-ring="" cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="2" style={{ strokeDasharray: "50.2655", strokeDashoffset: "31.1626", opacity: "1", transformBox: "fill-box", transformOrigin: "center center", transform: "scale(1)", transition: "opacity 200ms ease-out, transform 200ms ease-out" }} />
-          </>, label: "Early Access" },
+          </>, label: "Ditar achados" },
     { ariacontrols: "panel2", ariaselected: "false", id: "tab2", icon: <>
           <circle data-indicator-dot="" cx="10" cy="10" r="3" fill="currentColor" style={{ transition: "opacity 200ms ease-in", opacity: "1" }} />
           <circle data-indicator-ring="" cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="2" style={{ strokeDasharray: "50.2655", strokeDashoffset: "50.2655", opacity: "0", transformBox: "fill-box", transformOrigin: "center center", transform: "scale(0.375)", transition: "opacity 200ms ease-in, transform 200ms ease-in" }} />
-          </>, label: "Whitepaper, Part II" },
+          </>, label: "Revisar impressão" },
     { ariacontrols: "panel3", ariaselected: "false", id: "tab3", icon: <>
           <circle data-indicator-dot="" cx="10" cy="10" r="3" fill="currentColor" style={{ transition: "opacity 200ms ease-in", opacity: "1" }} />
           <circle data-indicator-ring="" cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="2" style={{ strokeDasharray: "50.2655", strokeDashoffset: "50.2655", opacity: "0", transformBox: "fill-box", transformOrigin: "center center", transform: "scale(0.375)", transition: "opacity 200ms ease-in, transform 200ms ease-in" }} />
-          </>, label: "Whitepaper, Part I" }
+          </>, label: "Assinar e entregar" }
 ];
 const FeatureCard2_data: FeatureCard2Data[] = [
-    { arialabelledby: "tab1", id: "panel1", title: "Impact Results from OpenAI’s GPT-5.5", description: "With better tool utilization and stronger reasoning, we saw a 25% relative increase in our ability to provide greater specificity to match elements in our rubric-based clinical quality evaluation.", href: "/blog/open-ai-gpt-5-5" },
-    { arialabelledby: "tab2", id: "panel2", title: "The Science of Confabulation Elimination", description: "In this paper, we focus on a topic that is top-of-mind for adoption of any AI-powered product: “hallucinations.”", href: "/ai/science-confabulation-hallucination-elimination" },
-    { arialabelledby: "tab3", id: "panel3", title: "Pioneering the Science of AI Evaluation", description: "Our process for evaluating AI-generated documentation at Abridge, quantitative performance measures for many of our key systems, and our process for conducting holistic clinician-in-the-loop studies.", href: "/ai/science-ai-evaluation" }
+    { arialabelledby: "tab1", id: "panel1", title: "Fale como radiologista", description: "Dite os achados do exame com jargão de laudo. A Laudos.AI organiza técnica, achados e impressão sem pedir que você dite formatação.", href: "/produto/copilot" },
+    { arialabelledby: "tab2", id: "panel2", title: "Revise antes do envio", description: "O texto sai estruturado, padronizado e editável. O médico segue no controle clínico e decide o que fica no laudo final.", href: "/seguranca" },
+    { arialabelledby: "tab3", id: "panel3", title: "Entregue no padrão da casa", description: "Templates por modalidade, frases prontas e integração ao fluxo da clínica ajudam a reduzir atraso e retrabalho.", href: "/templates" }
 ];
 /** How It Works section. */
 export default function HowItWorksSection({ mediaLinkData = MediaLink_data, featureCard2Data = FeatureCard2_data } = {}) {
@@ -35,13 +35,13 @@ export default function HowItWorksSection({ mediaLinkData = MediaLink_data, feat
                     <div className="flex flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n455">
                       <div className="block text-muted-foreground" data-cid="n456">
                         <div className="flow-root text-primary text-lg leading-4.5 tracking-[0.36px] uppercase max-md:text-sm max-md:leading-3.5 max-md:tracking-[0.28px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-2.5px] max-md:before:-mb-0.5 after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.7px] max-md:after:mb-[-2.1px]" data-cid="n457">
-                          How it works
+                          Como funciona
                         </div>
                       </div>
                       <div className="block text-[2.5rem] leading-10 max-md:text-[1.8125rem] max-md:leading-[1.8125rem]" data-cid="n458" data-component="heading">
                         <span className="flex flex-col gap-4 max-md:gap-2" data-cid="n459">
                           <p className="flow-root text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n460">
-                            The new system of intelligence for healthcare
+                            O novo fluxo de laudo da clínica
                           </p>
                         </span>
                       </div>
@@ -64,7 +64,7 @@ export default function HowItWorksSection({ mediaLinkData = MediaLink_data, feat
                 </div>
               </div>
               <div className="flex justify-center items-start col-start-1 col-end-2 row-start-1 row-end-2 max-md:justify-start" data-cid="n515" id="w-node-_4fe86ae0-4a9a-5c97-cb39-8a4dfa9042bf-7a3581b6">
-                <img className="w-auto h-[39.0625rem] block relative -z-1 max-w-full max-h-[39.0625rem] -mt-[4.5625rem] overflow-clip object-contain align-middle max-md:h-56 max-md:max-h-56 max-md:mt-0" data-cid="n516" data-component="image" alt="" src="/assets/cloned/images/8c1374143be5.avif" />
+                <img className="w-auto h-[39.0625rem] block relative -z-1 max-w-full max-h-[39.0625rem] -mt-[4.5625rem] overflow-clip object-contain align-middle max-md:h-56 max-md:max-h-56 max-md:mt-0" data-cid="n516" data-component="image" alt="Interface real da Laudos.AI para ditado e revisão de laudos" src="/assets/laudos/laudos-interface.png" />
               </div>
             </div>
           </div>

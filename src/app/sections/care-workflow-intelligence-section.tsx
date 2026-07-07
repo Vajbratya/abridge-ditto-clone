@@ -9,20 +9,20 @@ export default function CareWorkflowIntelligenceSection() {
               <div className="h-[218.7px] grid opacity-0 gap-[2.6rem] grid-rows-[136.828px_40.2031px] [grid-auto-columns:1fr] transform-[matrix(1,0,0,1,0,48)] grid-cols-1" data-cid="n435">
                 <div className="grid gap-7 grid-rows-[12.7969px_96.2812px] [grid-auto-columns:1fr] grid-cols-1 max-lg:gap-6 max-md:grid-rows-[9.95312px_48.9688px] md:max-lg:grid-rows-[12.7969px_152.406px] 2xl:gap-8 2xl:grid-rows-[12.7969px_98.4062px]" data-cid="n436">
                   <div className="h-[0.8rem] flow-root text-primary text-lg leading-4.5 tracking-[0.36px] uppercase max-md:h-2.5 max-md:text-sm max-md:leading-3.5 max-md:tracking-[0.28px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-2.5px] max-md:before:-mb-0.5 after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.7px] max-md:after:mb-[-2.1px]" data-cid="n437">
-                    CARE WORKFLOW
+                    Fluxo da clínica
                   </div>
                   <div className="grid gap-3.5 grid-rows-[41.2031px_41.2031px] [grid-auto-columns:1fr] grid-cols-1 max-lg:gap-3 max-md:grid-rows-[18.4844px_18.4844px] md:max-lg:grid-rows-[41.2031px_99.2031px] 2xl:gap-4" data-cid="n438">
                     <h2 className="flow-root text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n439" data-component="heading">
-                      Intelligence for care teams
+                      Do ditado à assinatura
                     </h2>
                     <h2 className="flow-root text-muted-foreground text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n440" data-component="heading">
-                      From start of visit to follow-up
+                      sem tirar o médico do controle
                     </h2>
                   </div>
                 </div>
                 <div className="w-full max-w-150 h-10 block max-md:h-[2.8625rem]" data-cid="n441">
                   <p className="h-full flow-root text-muted-foreground text-xl font-medium leading-6.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n442">
-                    Transform clinical conversations into documentation, insights, and actions for clinicians, RCM, nurses, IT, and payers.
+                    Laudos.AI organiza achados, impressão, revisão e padronização para a clínica entregar exames com menos atraso e menos retrabalho.
                   </p>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function CareWorkflowIntelligenceSection() {
         </div>
       </div>
       <div className="h-[764.7px] block absolute top-0 max-md:h-[636.5px] md:max-lg:h-[578.3px] 2xl:h-[889.1px]" data-cid="n444">
-        <img className="w-full h-full block absolute top-0 left-0 max-w-full overflow-clip object-cover align-middle" data-cid="n445" data-component="image" alt="" src="/assets/cloned/images/d9769e820323.avif" />
+        <img className="w-full h-full block absolute top-0 left-0 max-w-full overflow-clip object-cover align-middle" data-cid="n445" data-component="image" alt="" src="/assets/laudos/laudos-interface.png" />
         <div className="h-[305.9px] min-h-2/5 block absolute bottom-0 inset-x-0 max-md:h-[15.9125rem] md:max-lg:h-[231.3px] 2xl:h-[22.225rem]" style={{ backgroundImage: "linear-gradient(var(--clr-5), var(--background))" }} data-cid="n446" />
       </div>
     </section>

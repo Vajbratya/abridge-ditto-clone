@@ -20,7 +20,7 @@ export default function MediaCard({ d, cids, styles }: { d: MediaCardData; cids:
           </div>
           <div data-cid={cids[5]} className="h-full block">
             <div data-cid={cids[6]} className="block mb-[17.9px] max-lg:mb-4 2xl:mb-5">
-              <img data-cid={cids[7]} className="w-[27.9375rem] h-[27.9375rem] inline-block max-w-full overflow-clip align-middle max-md:w-71 max-md:h-71 md:max-lg:w-76 md:max-lg:h-76 2xl:w-152 2xl:h-152" data-component="image" alt="" src={d.imgSrc} />
+              <img data-cid={cids[7]} className="w-[27.9375rem] h-[27.9375rem] inline-block max-w-full rounded-xl overflow-clip object-cover align-middle max-md:w-71 max-md:h-71 md:max-lg:w-76 md:max-lg:h-76 2xl:w-152 2xl:h-152" data-component="image" alt="" src={d.imgSrc} />
             </div>
             <div data-cid={cids[8]} className="flex flex-col gap-[17.9px] max-lg:gap-4 2xl:gap-5">
               <div data-cid={cids[9]} className="block">

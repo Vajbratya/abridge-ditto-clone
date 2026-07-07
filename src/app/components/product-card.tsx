@@ -8,6 +8,7 @@ export type ProductCardData = {
   srcSet: string;
   title: string;
   text: string;
+  target?: string;
 };
 /** A product card. */
 export default function ProductCard({ d, cids, styles }: { d: ProductCardData; cids: string[]; styles: ProductCardStyles }) {
@@ -15,7 +16,7 @@ export default function ProductCard({ d, cids, styles }: { d: ProductCardData; c
     <div data-cid={cids[0]} className={cn("block max-lg:shrink-0", styles.className)}>
       <div data-cid={cids[1]} className="h-full block relative overflow-clip">
         <div data-cid={cids[2]} className="h-full block absolute top-0 inset-x-0">
-          <a data-cid={cids[3]} className="h-full block absolute top-0 inset-x-0 z-4 max-w-full cursor-pointer" data-component="link" aria-label={d.ariaLabel} href={d.href} target="_blank" />
+          <a data-cid={cids[3]} className="h-full block absolute top-0 inset-x-0 z-4 max-w-full cursor-pointer" data-component="link" aria-label={d.ariaLabel} href={d.href} target={d.target} />
         </div>
         <div data-cid={cids[4]} className="h-full flex flex-col gap-7 max-lg:gap-6 2xl:gap-8">
           <div data-cid={cids[5]} className="block">

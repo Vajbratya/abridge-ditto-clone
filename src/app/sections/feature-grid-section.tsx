@@ -14,16 +14,16 @@ export default function FeatureGridSection({ features = featuresContent } = {}) 
                 <div className="h-full flex flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n200">
                   <div className="block text-primary" data-cid="n201">
                     <div className="flow-root text-lg leading-4.5 tracking-[0.36px] uppercase max-md:text-sm max-md:leading-3.5 max-md:tracking-[0.28px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-2.5px] max-md:before:-mb-0.5 after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.7px] max-md:after:mb-[-2.1px]" data-cid="n202">
-                      Our impact
+                      O que melhora
                     </div>
                   </div>
                   <div className="block text-[2.5rem] leading-10 max-md:text-[1.8125rem] max-md:leading-[1.8125rem]" data-cid="n203" data-component="heading">
                     <span className="flex flex-col gap-4 max-md:gap-2" data-cid="n204">
                       <p className="flow-root text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n205">
-                        100M+ Conversations
+                        Pronto para sua clínica
                       </p>
                       <p className="flow-root text-muted-foreground text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n206">
-                        Powered each year
+                        Sem mudar seu fluxo
                       </p>
                     </span>
                   </div>

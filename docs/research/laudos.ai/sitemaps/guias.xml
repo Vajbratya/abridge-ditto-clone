@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.laudos.ai/guias/editor-de-laudos-radiologicos</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/ia-para-laudos-radiologicos</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/laudo-radiologico-estruturado</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/setup-de-laudo-radiologico</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/sistema-para-clinicas-de-radiologia</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/software-de-laudos-radiologicos</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.laudos.ai/guias/software-de-voz-para-laudo</loc>
+    <lastmod>2026-06-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+</urlset>

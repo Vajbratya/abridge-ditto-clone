@@ -11,9 +11,9 @@ export default function ProductGridSection({ products = productsContent } = {}) 
           <div className="block" data-cid="n587">
             <h2 className="h-full flow-root text-[2rem] font-semibold leading-[2.5rem] max-md:text-xl max-md:leading-[inherit] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.3px] max-md:before:-mb-[0.3rem] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.5375rem] max-md:after:-mb-[0.3125rem]" data-cid="n588" data-component="heading">
               <span className="block" data-cid="n589">
-                Recognized for
+                Templates por modalidade
               </span>
-              {" Contributions in Healthcare"}
+              {" prontos para a rotina"}
             </h2>
           </div>
           <div className="h-[17.275rem] block max-md:h-[16.2625rem] max-md:-mx-6 max-lg:overflow-clip md:max-lg:h-[16.8125rem] md:max-lg:-mx-8 2xl:h-[20.4375rem]" data-cid="n590">

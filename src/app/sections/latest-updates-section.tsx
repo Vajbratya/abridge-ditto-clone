@@ -16,12 +16,12 @@ const Logo_data: LogoData[] = [
                 </> }
 ];
 const MediaCard_data: MediaCardData[] = [
-    { ariahidden: "false", ariaLabel: "“Pediatrics, the Often Overlooked Specialty”: How Rady Children’s Is Using AI to Change That", href: "/blog/rady-childrens-health-ai-adoption-cerner", imgSrc: "/assets/cloned/images/1b972d09173e.avif", title: "“Pediatrics, the Often Overlooked Specialty”: How Rady Children’s Is Using AI to Change That", text: "Customer Stories", text2: "July 6, 2026" },
-    { ariahidden: "true", ariaLabel: "From Skeptics to Converts: How Adventist Health Built Clinician Trust in AI", href: "/blog/adventist-health-ai-adoption-cerner", imgSrc: "/assets/cloned/images/fae97ed4c934.avif", title: "From Skeptics to Converts: How Adventist Health Built Clinician Trust in AI", text: "Announcements", text2: "June 12, 2026" },
-    { ariahidden: "true", ariaLabel: "How Geisinger Scaled Abridge to 1,000+ Clinicians in 10 Months", href: "/blog/geisinger-ambient-ai-adoption", imgSrc: "/assets/cloned/images/eda4fc5a4726.avif", title: "How Geisinger Scaled Abridge to 1,000+ Clinicians in 10 Months", text: "Announcements", text2: "May 26, 2026" }
+    { ariahidden: "false", ariaLabel: "CFM 2.454/2026 na prática para clínicas de imagem", href: "/blog/cfm-2454-2026-na-pratica", imgSrc: "/assets/laudos/laudos-interface.png", title: "CFM 2.454/2026 na prática para clínicas de imagem", text: "Blog", text2: "Akira" },
+    { ariahidden: "true", ariaLabel: "Laudo estruturado: evidência e migração", href: "/blog/laudo-estruturado-evidencia-e-migracao", imgSrc: "/assets/laudos/opengraph-image.png", title: "Laudo estruturado: evidência e migração sem travar a rotina", text: "Blog", text2: "Natan" },
+    { ariahidden: "true", ariaLabel: "Transcrição em português com jargão radiológico", href: "/blog/transcricao-ptbr-jargao-radiologico", imgSrc: "/assets/laudos/laudos-interface.png", title: "Transcrição em português com jargão radiológico", text: "Blog", text2: "Akira" }
 ];
-/** Latest Updates Abridge section. */
-export default function LatestUpdatesAbridgeSection({ logoData = Logo_data, mediaCardData = MediaCard_data } = {}) {
+/** Latest Updates section. */
+export default function LatestUpdatesSection({ logoData = Logo_data, mediaCardData = MediaCard_data } = {}) {
   return (
     <div className="block" data-cid="n690">
       <section className="block relative py-[67.3px] px-[4.9375rem] max-md:py-16 max-md:px-6 md:max-lg:py-14 md:max-lg:px-8 2xl:py-20 2xl:px-24" data-cid="n691">
@@ -34,13 +34,13 @@ export default function LatestUpdatesAbridgeSection({ logoData = Logo_data, medi
                     <div className="h-full flex flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n698">
                       <div className="h-[0.8rem] block text-muted-foreground max-md:h-2.5" data-cid="n699">
                         <div className="h-[0.8rem] flow-root text-primary text-lg leading-4.5 tracking-[0.36px] uppercase max-md:h-2.5 max-md:text-sm max-md:leading-3.5 max-md:tracking-[0.28px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-2.5px] max-md:before:-mb-0.5 after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.7px] max-md:after:mb-[-2.1px]" data-cid="n700">
-                          Latest Updates
+                          Conteúdo técnico
                         </div>
                       </div>
                       <div className="block text-[2.5rem] leading-10 max-md:text-[1.8125rem] max-md:leading-[1.8125rem]" data-cid="n701" data-component="heading">
                         <span className="flex flex-col gap-4 max-md:gap-2" data-cid="n702">
                           <p className="flow-root text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n703">
-                            Abridge in the News
+                            Guias Laudos.AI
                           </p>
                         </span>
                       </div>

@@ -13,13 +13,13 @@ export default function AwardsDeliveringAwardSection() {
                     <div className="flex flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n525">
                       <div className="block text-primary" data-cid="n526">
                         <div className="flow-root text-lg leading-4.5 tracking-[0.36px] uppercase max-md:text-sm max-md:leading-3.5 max-md:tracking-[0.28px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-2.5px] max-md:before:-mb-0.5 after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.7px] max-md:after:mb-[-2.1px]" data-cid="n527">
-                          AWARDS
+                          Conformidade
                         </div>
                       </div>
                       <div className="block text-[2.5rem] leading-10 max-md:text-[1.8125rem] max-md:leading-[1.8125rem]" data-cid="n528" data-component="heading">
                         <span className="flex flex-col gap-4 max-md:gap-2" data-cid="n529">
                           <p className="flow-root text-[3.625rem] font-medium leading-14.5 tracking-[-1.74px] max-md:text-[1.625rem] max-md:leading-6.5 max-md:tracking-[-0.78px] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-8.1px] max-md:before:-mb-[0.225rem] after:content-[''] after:table after:w-0 after:h-0 after:mb-[-8.7px] max-md:after:mb-[-3.9px]" data-cid="n530">
-                            Delivering award-winning partner experiences
+                            IA assistiva, revisão médica e rastreabilidade
                           </p>
                         </span>
                       </div>
@@ -27,18 +27,18 @@ export default function AwardsDeliveringAwardSection() {
                     <div className="flex flex-col gap-[51.5px] max-lg:gap-11 2xl:gap-15" data-cid="n531">
                       <div className="w-full max-w-150 h-10 block text-muted-foreground max-md:h-[2.8625rem]" data-cid="n532">
                         <p className="h-full flow-root text-xl font-medium leading-6.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n533">
-                          Abridge has earned recognition for transforming healthcare with generative AI from the top brands in media and health.
+                          Laudos.AI foi criada para acelerar o laudo sem substituir o radiologista, com dados no Brasil, revisão humana e trilha auditável.
                         </p>
                       </div>
                       <div className="h-[42.7px] flex gap-2.5 max-md:h-[2.625rem] max-md:flex-col max-lg:gap-2 2xl:gap-3" data-cid="n534">
                         <div className="h-[42.7px] block max-md:h-[2.625rem]" data-cid="n535">
                           <div className="h-10 border border-solid border-foreground inline-block relative min-w-45 rounded-sm text-background bg-foreground" data-cid="n536">
                             <div className="w-44.5 h-full block absolute top-0" data-cid="n537">
-                              <a className="w-44.5 h-9.5 block absolute top-0 z-4 max-w-full cursor-pointer" data-cid="n538" data-component="link" aria-label="Customer Stories" href="/customers" />
+                              <a className="w-44.5 h-9.5 block absolute top-0 z-4 max-w-full cursor-pointer" data-cid="n538" data-component="link" aria-label="Ver segurança" href="/seguranca" />
                             </div>
                             <div className="h-full flex relative py-[0.9rem] px-6 justify-center items-center gap-2 align-middle leading-4 text-center" data-cid="n539">
                               <div className="h-[0.7125rem] flow-root font-semibold max-md:h-2.5 max-md:text-sm max-md:leading-[1rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-0.5 max-md:before:-mb-[0.1875rem] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.15rem] max-md:after:-mb-[0.2rem]" data-cid="n540" aria-hidden="true">
-                                Customer Stories
+                                Ver segurança
                               </div>
                             </div>
                           </div>
@@ -55,10 +55,10 @@ export default function AwardsDeliveringAwardSection() {
                       <div className="h-full flex flex-col gap-6" data-cid="n545">
                         <div className="block before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-6 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-6" data-cid="n546" />
                         <div className="flow-root text-7xl leading-[4.75rem] max-md:text-[2rem] max-md:leading-[2.125rem] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-11.9px] max-md:before:mb-[-5.3px] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.7875rem] max-md:after:-mb-[0.35rem]" data-cid="n547">
-                          95%
+                          LGPD
                         </div>
                         <div className="h-3.5 flow-root text-muted-foreground text-xl font-medium leading-6.5 max-md:h-2.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n548">
-                          User Retention Rates
+                          Dados no Brasil
                         </div>
                       </div>
                     </div>
@@ -70,10 +70,10 @@ export default function AwardsDeliveringAwardSection() {
                       <div className="h-full flex flex-col gap-6" data-cid="n552">
                         <div className="block before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-6 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-6" data-cid="n553" />
                         <div className="flow-root text-7xl leading-[4.75rem] max-md:text-[2rem] max-md:leading-[2.125rem] before:content-[''] before:table before:w-0 before:h-0 before:mb-[-11.9px] max-md:before:mb-[-5.3px] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.7875rem] max-md:after:-mb-[0.35rem]" data-cid="n554">
-                          30x
+                          CFM
                         </div>
                         <div className="h-3.5 flow-root text-muted-foreground text-xl font-medium leading-6.5 max-md:h-2.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n555">
-                          Adoption Growth
+                          Médico assina
                         </div>
                       </div>
                     </div>
@@ -85,22 +85,22 @@ export default function AwardsDeliveringAwardSection() {
               <div className="h-full block rounded-xl text-background bg-color-001" data-cid="n557">
                 <div className="h-full block relative rounded-xl overflow-clip bg-color-001 shadow-[var(--color-002)_0px_0px_0px_1px]" data-cid="n558">
                   <div className="h-full block absolute top-0 inset-x-0" data-cid="n559">
-                    <a className="h-full block absolute top-0 inset-x-0 z-4 max-w-full cursor-pointer" data-cid="n560" data-component="link" aria-label="" href="/best-in-klas-2026" />
+                    <a className="h-full block absolute top-0 inset-x-0 z-4 max-w-full cursor-pointer" data-cid="n560" data-component="link" aria-label="Conformidade Laudos.AI" href="/conformidade" />
                   </div>
                   <div className="h-full flex rounded-xl flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n561">
                     <div className="block rounded-xl" data-cid="n562">
-                      <img className="w-full h-[20.8125rem] inline-block max-w-full overflow-clip object-cover aspect-[3/2] align-middle max-md:h-54.5" data-cid="n563" data-component="image" alt="Best in KLAS awards for Ambient 2025 and Ambient Speech 2026 with rock arch icons." sizes="100vw" src="/assets/cloned/images/0c689b3410ae.avif" srcSet="/assets/cloned/images/36caa08fea74.avif 500w, /assets/cloned/images/a93b656aac84.avif 800w, /assets/cloned/images/94f8d5af1900.avif 1080w, /assets/cloned/images/f7573ac937b9.avif 1600w, /assets/cloned/images/d5412d21ff1d.avif 2000w, /assets/cloned/images/4d5f58c04c62.avif 2600w, /assets/cloned/images/0c689b3410ae.avif 2940w" />
+                      <img className="w-full h-[20.8125rem] inline-block max-w-full overflow-clip object-cover aspect-[3/2] align-middle max-md:h-54.5" data-cid="n563" data-component="image" alt="Interface real da Laudos.AI com editor de laudos" sizes="100vw" src="/assets/laudos/laudos-interface.png" srcSet="/assets/laudos/laudos-interface.png 3420w" />
                     </div>
                     <div className="flex pb-9 px-9 flex-col gap-9 max-lg:pb-8 max-lg:px-8 max-lg:gap-8 2xl:pb-10 2xl:px-10 2xl:gap-10" data-cid="n564">
                       <div className="flex flex-col gap-[21.9px] max-lg:gap-5 2xl:gap-6" data-cid="n565">
                         <div className="h-3.5 flex flex-col gap-[17.9px] max-md:h-2.5 max-lg:gap-4 2xl:gap-5" data-cid="n566">
                           <h3 className="h-full flow-root text-xl font-semibold leading-6.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n567" data-component="heading">
-                            Best in KLAS 2025 and 2026
+                            Conformidade verificável
                           </h3>
                         </div>
                         <div className="block" data-cid="n568">
                           <div className="flow-root text-muted text-xl font-medium leading-6.5 max-md:text-sm max-md:leading-[1.125rem] before:content-[''] before:table before:w-0 before:h-0 before:-mb-1.5 max-md:before:-mb-1 after:content-[''] after:table after:w-0 after:h-0 after:-mb-1.5 max-md:after:-mb-1" data-cid="n569">
-                            Abridge is recognized as a market leader in ambient AI and earned the 2025 and 2026 Best in KLAS award, supported by input from top health systems.
+                            CFM 2.454/2026, LGPD by design, CRIT-ready e integração HL7 / DICOM para operar com rastreabilidade.
                           </div>
                         </div>
                       </div>
@@ -112,7 +112,7 @@ export default function AwardsDeliveringAwardSection() {
                                 <div className="w-3.5 h-3.5 block rounded-full aspect-square bg-primary" data-cid="n575" />
                                 <div className="flex justify-start items-center gap-2" data-cid="n576">
                                   <div className="flow-root text-muted font-medium leading-[0.8125rem] uppercase max-md:text-xs max-md:leading-3.5 before:content-[''] before:table before:w-0 before:h-0 before:-mb-[0.0375rem] max-md:before:-mb-[0.1625rem] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.05rem] max-md:after:-mb-[0.175rem]" data-cid="n577">
-                                    News
+                                    Segurança
                                   </div>
                                 </div>
                               </div>

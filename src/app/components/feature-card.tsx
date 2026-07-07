@@ -6,6 +6,7 @@ export type FeatureCardData = {
   target?: string;
   title: string;
   text: string;
+  tag?: string;
 };
 /** A feature card. */
 export default function FeatureCard({ d, cids, styles }: { d: FeatureCardData; cids: string[]; styles: FeatureCardStyles }) {
@@ -37,7 +38,7 @@ export default function FeatureCard({ d, cids, styles }: { d: FeatureCardData; c
                       <div data-cid={cids[16]} className="w-3.5 h-3.5 block rounded-full aspect-square bg-accent" />
                       <div data-cid={cids[17]} className="flex justify-start items-center gap-2">
                         <div data-cid={cids[18]} className="flow-root text-muted-foreground font-medium leading-[0.8125rem] uppercase max-md:text-xs max-md:leading-3.5 before:content-[''] before:table before:w-0 before:h-0 before:-mb-[0.0375rem] max-md:before:-mb-[0.1625rem] after:content-[''] after:table after:w-0 after:h-0 after:-mb-[0.05rem] max-md:after:-mb-[0.175rem]">
-                          press
+                          {d.tag ?? "módulo"}
                         </div>
                       </div>
                     </div>

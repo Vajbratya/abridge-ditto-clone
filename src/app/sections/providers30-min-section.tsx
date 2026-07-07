@@ -4,25 +4,25 @@ import MediaTile3, { type MediaTile3Data } from "../components/media-tile3";
 import { MediaTile_cids, MediaTile2_cids, MediaTile3_cids } from "../_cids";
 import { MediaTile_styles, MediaTile2_styles, MediaTile3_styles } from "../_styles";
 const MediaTile_data: MediaTileData[] = [
-    { imgSrc: "/assets/cloned/svg/cfc7ef59f306.svg", text: "500K+ patients, 60+ centers, 28 languages", ariaLabel: "Read Press Release. AltaMed: 500K+ patients, 60+ centers, 28 languages", href: "/press-release/altamed-abridge" },
-    { imgSrc: "/assets/cloned/svg/81c35bc09fbb.svg", text: "83% reduction in note-writing effort", ariaLabel: "Read Press Release, SHARP: 83% reduction in note-writing effort", href: "/press-release/sharp-abridge" },
-    { imgSrc: "/assets/cloned/svg/1f90c6cd41e3.svg", kind: "image", text: "95% user retention across 22 pediatric specialties", ariaLabel: "Read Case Study Akron Children: 95% user retention across 22 pediatric specialties", href: "/case-study/akron-childrens", kind2: "link" },
-    { imgSrc: "/assets/cloned/svg/1d82c2f97fad.svg", kind: "image", text: "55% decrease in burnout rate", ariaLabel: "Read Case Study Riverside Health: 55% decrease in burnout rate", href: "/case-study/riverside-health", kind2: "link" },
-    { imgSrc: "/assets/cloned/svg/f0b57d2faf5c.svg", kind: "image", text: "40+ specialties, 9,400+ clinicians", ariaLabel: "Read Case Study Inova: 40+ specialties, 9,400+ clinicians", href: "/case-study/inova-scales-ai-across-specialties-and-care-settings", kind2: "link" }
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Laudos mais rápidos", ariaLabel: "O que melhora no dia a dia da clínica: laudos mais rápidos", href: "/produto" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Menos atraso", ariaLabel: "O que melhora no dia a dia da clínica: menos atraso", href: "/produto" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", kind: "image", text: "Menos digitação", ariaLabel: "O que melhora no dia a dia da clínica: menos digitação", href: "/produto", kind2: "link" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", kind: "image", text: "Menos retrabalho", ariaLabel: "O que melhora no dia a dia da clínica: menos retrabalho", href: "/produto", kind2: "link" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", kind: "image", text: "Revisão antes do envio", ariaLabel: "O que melhora no dia a dia da clínica: revisão antes do envio", href: "/seguranca", kind2: "link" }
 ];
 const MediaTile2_data: MediaTile2Data[] = [
-    { kind: "image", imgSrc: "/assets/cloned/svg/97d867bad57b.svg", text: "78% reduction in cognitive load", kind2: "link", ariaLabel: "Read Case Study: Christu Health show 78% reduction in cognitive load", href: "/case-study/christus-health" },
-    { kind: "image", imgSrc: "/assets/cloned/svg/dabbeedf6642.svg", text: "800+ providers, 30 min/day documentation time saved", kind2: "link", ariaLabel: "Read Third-party research by UWHealth: 800+ providers, 30 min/day documentation time saved", href: "https://www.med.wisc.edu/news/ambient-ai-improves-practitioner-well-being/", target: "_blank" },
-    { kind: "image", imgSrc: "/assets/cloned/svg/cfc7ef59f306.svg", text: "500K+ patients, 60+ centers, 28 languages", kind2: "link", ariaLabel: "Read Press Release. AltaMed: 500K+ patients, 60+ centers, 28 languages", href: "/press-release/altamed-abridge" },
-    { kind: "image", imgSrc: "/assets/cloned/svg/81c35bc09fbb.svg", text: "83% reduction in note-writing effort", kind2: "link", ariaLabel: "Read Press Release, SHARP: 83% reduction in note-writing effort", href: "/press-release/sharp-abridge" },
-    { kind: "image", imgSrc: "/assets/cloned/svg/1f90c6cd41e3.svg", text: "95% user retention across 22 pediatric specialties", kind2: "link", ariaLabel: "Read Case Study Akron Children: 95% user retention across 22 pediatric specialties", href: "/case-study/akron-childrens" },
-    { kind: "image", imgSrc: "/assets/cloned/svg/1d82c2f97fad.svg", text: "55% decrease in burnout rate", kind2: "link", ariaLabel: "Read Case Study Riverside Health: 55% decrease in burnout rate", href: "/case-study/riverside-health" },
-    { imgSrc: "/assets/cloned/svg/f0b57d2faf5c.svg", text: "40+ specialties, 9,400+ clinicians", ariaLabel: "Read Case Study Inova: 40+ specialties, 9,400+ clinicians", href: "/case-study/inova-scales-ai-across-specialties-and-care-settings" }
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Laudos mais padronizados", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: laudos mais padronizados", href: "/templates" },
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Equipe menos sobrecarregada", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: equipe menos sobrecarregada", href: "/solucoes/clinicas-de-imagem" },
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Mais exames entregues", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: mais exames entregues", href: "/solucoes/clinicas-de-imagem" },
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Médico no controle", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: médico no controle", href: "/seguranca" },
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Dados no Brasil", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: dados no Brasil", href: "/seguranca" },
+    { kind: "image", imgSrc: "/assets/laudos/laudos-mark.svg", text: "Laudos mais rápidos", kind2: "link", ariaLabel: "O que melhora no dia a dia da clínica: laudos mais rápidos", href: "/produto" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Menos atraso", ariaLabel: "O que melhora no dia a dia da clínica: menos atraso", href: "/produto" }
 ];
 const MediaTile3_data: MediaTile3Data[] = [
-    { imgSrc: "/assets/cloned/svg/97d867bad57b.svg", text: "78% reduction in cognitive load", ariaLabel: "Read Case Study: Christu Health show 78% reduction in cognitive load", href: "/case-study/christus-health" },
-    { imgSrc: "/assets/cloned/svg/dabbeedf6642.svg", text: "800+ providers, 30 min/day documentation time saved", ariaLabel: "Read Third-party research by UWHealth: 800+ providers, 30 min/day documentation time saved", href: "https://www.med.wisc.edu/news/ambient-ai-improves-practitioner-well-being/", target: "_blank" },
-    { imgSrc: "/assets/cloned/svg/cfc7ef59f306.svg", text: "500K+ patients, 60+ centers, 28 languages", ariaLabel: "Read Press Release. AltaMed: 500K+ patients, 60+ centers, 28 languages", href: "/press-release/altamed-abridge" }
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Menos digitação", ariaLabel: "O que melhora no dia a dia da clínica: menos digitação", href: "/produto" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Revisão antes do envio", ariaLabel: "O que melhora no dia a dia da clínica: revisão antes do envio", href: "/seguranca" },
+    { imgSrc: "/assets/laudos/laudos-mark.svg", text: "Dados no Brasil", ariaLabel: "O que melhora no dia a dia da clínica: dados no Brasil", href: "/seguranca" }
 ];
 /** Providers30Min section. */
 export default function Providers30MinSection({ mediaTileData = MediaTile_data, mediaTile2Data = MediaTile2_data, mediaTile3Data = MediaTile3_data } = {}) {
@@ -34,7 +34,7 @@ export default function Providers30MinSection({ mediaTileData = MediaTile_data, 
             <div className="h-6 flex relative flex-col justify-start items-center" data-cid="n80">
               <div className="w-94.5 h-[2.125rem] block absolute top-[1.875rem] -left-[9.3125rem] opacity-0 min-w-0 py-3 px-4 rounded-full whitespace-nowrap text-nowrap bg-clr-3 pointer-events-none max-md:hidden" data-cid="n81">
                 <div className="h-2.5 flow-root text-sm font-semibold leading-3.5 pointer-events-none before:content-[''] before:table before:w-0 before:h-0 before:-mb-0.5 max-md:before:mb-[-2.9px] max-md:before:w-auto max-md:before:h-auto after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.1px] max-md:after:-mb-[0.1875rem] max-md:after:w-auto max-md:after:h-auto" data-cid="n82">
-                  800+ providers, 30 min/day documentation time saved
+                  O QUE MELHORA NO DIA A DIA DA CLÍNICA
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Providers30MinSection({ mediaTileData = MediaTile_data, 
             <div className="h-6 flex relative flex-col justify-start items-center" data-cid="n190">
               <div className="w-64.5 h-[2.125rem] block absolute top-[1.875rem] -left-[6.4375rem] opacity-0 min-w-0 py-3 px-4 rounded-full whitespace-nowrap text-nowrap bg-clr-3 pointer-events-none max-md:hidden" data-cid="n191">
                 <div className="h-2.5 flow-root text-sm font-semibold leading-3.5 pointer-events-none before:content-[''] before:table before:w-0 before:h-0 before:-mb-0.5 max-md:before:mb-[-2.9px] max-md:before:w-auto max-md:before:h-auto after:content-[''] after:table after:w-0 after:h-0 after:mb-[-2.1px] max-md:after:-mb-[0.1875rem] max-md:after:w-auto max-md:after:h-auto" data-cid="n192">
-                  83% reduction in note-writing effort
+                  O QUE MELHORA NO DIA A DIA DA CLÍNICA
                 </div>
               </div>
             </div>
