@@ -1,0 +1,256 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@source "./";
+
+/* Tailwind theme: color tokens (so bg-primary/text-foreground resolve to our vars) +
+   breakpoints. @theme inline keeps the var() reference (theme-swappable at runtime). */
+@theme inline {
+  --breakpoint-vp375: 375px;
+  --breakpoint-vp768: 768px;
+  --breakpoint-vp1280: 1280px;
+  --breakpoint-vp1920: 1920px;
+  --breakpoint-md: 572px;
+  --breakpoint-lg: 1025px;
+  --breakpoint-2xl: 1601px;
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-color-004: var(--color-004);
+  --color-primary: var(--primary);
+  --color-clr-0: var(--clr-0);
+  --color-clr-1: var(--clr-1);
+  --color-color-001: var(--color-001);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-clr-2: var(--clr-2);
+  --color-clr-3: var(--clr-3);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-clr-4: var(--clr-4);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-color-002: var(--color-002);
+  --color-clr-5: var(--clr-5);
+  --color-color-003: var(--color-003);
+  --color-clr-6: var(--clr-6);
+  --color-clr-7: var(--clr-7);
+  --color-clr-8: var(--clr-8);
+  --color-clr-9: var(--clr-9);
+  --color-clr-10: var(--clr-10);
+  --color-clr-11: var(--clr-11);
+}
+
+/* Design tokens (values). */
+:root {
+  --background: rgb(255, 255, 255);
+  --foreground: rgb(20, 19, 18);
+  --primary: rgb(234, 44, 0);
+  --accent: rgb(68, 12, 0);
+  --border: rgb(247, 242, 237);
+  --muted-foreground: rgb(109, 100, 90);
+  --surface: rgb(251, 249, 246);
+  --muted: rgb(167, 152, 138);
+  --color-001: rgb(0, 0, 0);
+  --color-002: rgb(34, 34, 34);
+  --color-003: rgb(213, 203, 192);
+  --color-004: lab(27.036 0 0);
+}
+
+:root {
+  /* fonts */
+  --font-body: Avantt, Arial, sans-serif;
+  /* fontSizes */
+  --font-size-001: 14px;
+  --font-size-002: 16px;
+  --font-size-003: 18px;
+  --font-size-004: 20px;
+  --font-size-005: 24px;
+  --font-size-006: 32px;
+  --font-size-007: 40px;
+  --font-size-008: 58px;
+  --font-size-009: 72px;
+  /* fontWeights */
+  --font-weight-001: 400;
+  --font-weight-002: 500;
+  --font-weight-003: 600;
+  /* lineHeights */
+  --line-height-001: 24px;
+  --line-height-002: 26px;
+  --line-height-003: 16px;
+  --line-height-004: 20.8px;
+  --line-height-005: 12.8px;
+  --line-height-006: 14px;
+  --line-height-007: 40px;
+  --line-height-008: 26.4px;
+  --line-height-009: 58px;
+  --line-height-010: 18px;
+  --line-height-011: 22px;
+  --line-height-012: 39.68px;
+  /* spacing */
+  --space-001: 4px;
+  --space-002: 6px;
+  --space-003: 8px;
+  --space-004: 9.8624px;
+  --space-005: 10px;
+  --space-006: 12px;
+  --space-007: 13.8784px;
+  --space-008: 14.4px;
+  --space-009: 16px;
+  --space-010: 17.8784px;
+  --space-011: 21.8784px;
+  --space-012: 24px;
+  --space-013: 26px;
+  --space-014: 27.7536px;
+  --space-015: 32px;
+  --space-016: 35.7536px;
+  --space-017: 41.632px;
+  --space-018: 51.5104px;
+  --space-019: 60px;
+  --space-020: 64px;
+  --space-021: 67.264px;
+  --space-022: 79.0176px;
+  --space-023: 104.634px;
+  /* radii */
+  --radius-001: 4px;
+  --radius-002: 8px;
+  --radius-003: 12px;
+  --radius-004: 24px;
+  --radius-005: 1000px;
+  /* shadows */
+  --shadow-001: rgb(238, 229, 221) 0px 0px 0px 1px;
+  /* zIndices */
+  --z-001: 2;
+  --z-002: 4;
+  --z-003: 10;
+  /* breakpoints */
+  --bp-375: 375px;
+  --bp-768: 768px;
+  --bp-1280: 1280px;
+  --bp-1920: 1920px;
+}
+
+:root {
+  --clr-0: lab(15.204 0 -0.00000596046);
+  --clr-1: rgba(0, 0, 0, 0);
+  --clr-2: rgba(167, 152, 138, 0.15);
+  --clr-3: rgb(57, 54, 51);
+  --clr-4: rgb(238, 229, 221);
+  --clr-5: rgba(255, 255, 255, 0);
+  --clr-6: rgb(118, 168, 244);
+  --clr-7: rgba(0, 0, 0, 0.2);
+  --clr-8: rgba(167, 152, 138, 0.137);
+  --clr-9: rgb(195, 41, 6);
+  --clr-10: rgba(167, 152, 138, 0.008);
+  --clr-11: rgb(16, 16, 16);
+}
+
+@layer base {
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; border: 0 solid currentColor; }
+html { -webkit-text-size-adjust: 100%; line-height: normal; }
+body { margin: 0; }
+ul, ol, menu { list-style: none; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea, optgroup { font: inherit; color: inherit; background: transparent; border: 0; padding: 0; margin: 0; text-align: inherit; letter-spacing: inherit; }
+button { cursor: pointer; }
+table { border-collapse: separate; border-spacing: 0; }
+img, picture, video, canvas, svg { display: inline-block; }
+/* Lottie runtime fit: the player re-mounts its svg/canvas into an absolute overlay that fills
+   the host's captured (per-viewport, definite) box. Force that runtime media to fit the box so
+   an aspect-mismatched viewBox (e.g. a portrait animation in a shorter, letterboxed source box)
+   can't inflate past the pinned height. Scoped to the runtime-marked host only. */
+[data-ditto-lottie] > div > svg, [data-ditto-lottie] > div > canvas { width: 100%; height: 100%; display: block; }
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd { margin: 0; }
+/* Neutralize UA text defaults to inherit so the generator's default-skipping is
+   correct: a property equal to its inherited value is simply not emitted. */
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+b, strong, th { font-weight: inherit; }
+em, i, cite, var, dfn, address, q { font-style: inherit; }
+small, big, sub, sup { font-size: inherit; }
+sub, sup { vertical-align: inherit; }
+code, kbd, samp, pre, tt, var { font-family: inherit; font-size: inherit; }
+mark { background-color: transparent; color: inherit; }
+abbr[title] { text-decoration: none; }
+fieldset, legend { min-width: 0; }
+
+/* fonts */
+@font-face {
+  font-family: "Abridge Font";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/437da9ef7654.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/e3ab49a58d67.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/ef5c7330fa4c.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/4dce7166457e.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/eb0464b71865.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/85e729264412.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/2a19224a03f9.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/1b72a54a0f64.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Avantt";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/a522efcce7a1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "webflow-icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,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);
+}
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+html, body { overflow-x: clip; }
+}

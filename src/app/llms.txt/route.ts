@@ -1,0 +1,7 @@
+export const dynamic = "force-static";
+
+export function GET() {
+  return new Response("# Generative AI for Clinical Conversations | Abridge\n\nDiscover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care.\n\nThis is a generated ditto.site clone. It preserves captured page content, metadata, route structure, and static assets where available.\n\n## Routes\n\n- [Generative AI for Clinical Conversations | Abridge](https://www.abridge.com/) - Discover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care.\n\n## Captured Content\n\n### Generative AI for Clinical Conversations | Abridge\nSkip to main content Platform AI Resources About Log In Contact Us Enterprise-Grade AI For every moment of care One intelligence layer connecting health systems, payers, and life sciences organizations. Built by clinicians, for clinicians—trusted by 300+ health systems. Contact Us Customer Stories News Abridge Keynote: Abridge Unveils Patient-Centered Clinician Intelligence Platform 800+ providers, 30 min/day documentation time saved 500K+ patients, 60+ centers, 28 languages 83% reduction in note-writing effort 95% user retention across 22 pediatric specialties 55% decrease in burnout rate 40+ specialties, 9,400+ clinicians 78% reduction in cognitive load 800+ providers, 30 min/day documenta\n", {
+    headers: { "content-type": "text/plain; charset=utf-8" },
+  });
+}
