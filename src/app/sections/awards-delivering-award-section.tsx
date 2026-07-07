@@ -89,7 +89,7 @@ export default function AwardsDeliveringAwardSection() {
                   </div>
                   <div className="h-full flex rounded-xl flex-col gap-7 max-lg:gap-6 2xl:gap-8" data-cid="n561">
                     <div className="block rounded-xl" data-cid="n562">
-                      <img className="w-full h-[20.8125rem] inline-block max-w-full overflow-clip object-cover aspect-[3/2] align-middle max-md:h-54.5" data-cid="n563" data-component="image" alt="Interface real da Laudos.AI com editor de laudos" sizes="100vw" src="/assets/laudos/laudos-interface.png" srcSet="/assets/laudos/laudos-interface.png 3420w" />
+                      <img className="w-full h-[20.8125rem] inline-block max-w-full overflow-clip object-cover aspect-[3/2] align-middle max-md:h-54.5" data-cid="n563" data-component="image" alt="Radiologista revisando laudo em ambiente de conformidade e rastreabilidade" sizes="100vw" src="/assets/laudos/laudos-compliance-card.webp" srcSet="/assets/laudos/laudos-compliance-card.webp 1400w" />
                     </div>
                     <div className="flex pb-9 px-9 flex-col gap-9 max-lg:pb-8 max-lg:px-8 max-lg:gap-8 2xl:pb-10 2xl:px-10 2xl:gap-10" data-cid="n564">
                       <div className="flex flex-col gap-[21.9px] max-lg:gap-5 2xl:gap-6" data-cid="n565">

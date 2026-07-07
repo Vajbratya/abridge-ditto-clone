@@ -3,7 +3,7 @@ export default function EnterpriseGradeAiSection() {
   return (
     <section className="h-[calc(100vh-4.5rem)] min-h-188 flex relative py-[59.7552px] px-[87.5088px] flex-col overflow-clip max-md:h-[650.375px] max-md:min-h-0 max-md:pt-[132.6px] max-md:pb-12 max-md:px-6 md:max-lg:h-[962.5px] md:max-lg:py-12 md:max-lg:px-8 2xl:h-[63.45rem] 2xl:py-16 2xl:px-24" data-cid="n30">
       <div className="h-full block absolute top-0 inset-x-0 min-w-0" data-cid="n31">
-        <img className="w-full h-full inline-block max-w-none overflow-clip object-cover object-[50%_0%] align-middle" data-cid="n32" data-component="image" alt="" src="/assets/laudos/laudos-interface.png" />
+        <img className="w-full h-full inline-block max-w-none overflow-clip object-cover object-[50%_0%] align-middle" data-cid="n32" data-component="image" alt="" src="/assets/laudos/laudos-hero-radiologist.webp" />
         <div className="h-[32.9rem] block absolute bottom-0 inset-x-0 z-2 max-md:h-[451.7px] md:max-lg:h-[42.1125rem] 2xl:h-[44.4125rem]" style={{ backgroundImage: "linear-gradient(var(--clr-1), var(--color-001))" }} data-cid="n33" />
       </div>
       <div className="block mt-[594.094px] max-md:mt-0 md:max-lg:mt-[301.7px] 2xl:mt-[470.7px]" data-cid="n34">
@@ -78,7 +78,7 @@ export default function EnterpriseGradeAiSection() {
                         </div>
                       </div>
                       <div className="block relative pt-[108.3px] self-center max-md:pt-[5.3625rem]" data-cid="n72" id="w-node-_6e7ed12b-19b7-f7f9-a4ab-a5647727aaf2-7727aae7">
-                        <img className="w-full h-full block absolute top-0 left-0 max-w-full rounded-2xl overflow-clip object-cover align-middle" data-cid="n73" data-component="image" alt="" sizes="(max-width: 600px) 100vw, 600px" src="/assets/laudos/laudos-interface.png" srcSet="/assets/laudos/laudos-interface.png 3420w" />
+                        <img className="w-full h-full block absolute top-0 left-0 max-w-full rounded-2xl overflow-clip object-cover align-middle" data-cid="n73" data-component="image" alt="" sizes="(max-width: 600px) 100vw, 600px" src="/assets/laudos/laudos-manifesto-thumb.webp" srcSet="/assets/laudos/laudos-manifesto-thumb.webp 900w" />
                       </div>
                     </div>
                     <div className="h-full block absolute top-0 inset-x-0" data-cid="n74">

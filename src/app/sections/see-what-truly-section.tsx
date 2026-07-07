@@ -7,7 +7,7 @@ export default function SeeWhatTrulySection() {
         <div className="h-[39.4375rem] block rounded-xl overflow-hidden max-md:h-124 md:max-lg:h-135 2xl:h-225" data-cid="n666">
           <div className="h-full block text-background bg-color-001" data-cid="n667">
             <div className="h-full block relative overflow-clip" data-cid="n668">
-              <img className="w-full h-[39.4375rem] inline-block max-w-full overflow-clip object-cover aspect-video align-middle max-md:h-46 md:max-lg:h-99 2xl:h-225" data-cid="n669" data-component="image" alt="Interface real da Laudos.AI aberta em uma sala de laudos" sizes="100vw" src="/assets/laudos/laudos-interface.png" srcSet="/assets/laudos/laudos-interface.png 3420w" />
+              <img className="w-full h-[39.4375rem] inline-block max-w-full overflow-clip object-cover aspect-video align-middle max-md:h-46 md:max-lg:h-99 2xl:h-225" data-cid="n669" data-component="image" alt="Radiologista trabalhando em sala de laudos com monitores diagnósticos" sizes="100vw" src="/assets/laudos/laudos-reading-room-wide.webp" srcSet="/assets/laudos/laudos-reading-room-wide.webp 2200w" />
               <div className="h-[504.9px] block absolute bottom-0 inset-x-0 opacity-90 max-md:h-[24.8rem] md:max-lg:h-108 2xl:h-180" data-cid="n670" />
               <div className="h-[292.1px] block absolute right-[35.125rem] bottom-0 left-0 pb-15 pl-15 max-md:h-[19.75rem] max-md:right-0 max-md:p-8 md:max-lg:h-[17.7875rem] md:max-lg:right-36 2xl:h-[18.7875rem] 2xl:right-260" data-cid="n671">
                 <div className="h-full flex max-w-125 flex-col gap-[2.6rem] max-lg:gap-9 2xl:gap-12" data-cid="n672">

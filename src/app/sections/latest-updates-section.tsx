@@ -16,9 +16,9 @@ const Logo_data: LogoData[] = [
                 </> }
 ];
 const MediaCard_data: MediaCardData[] = [
-    { ariahidden: "false", ariaLabel: "CFM 2.454/2026 na prática para clínicas de imagem", href: "/blog/cfm-2454-2026-na-pratica", imgSrc: "/assets/laudos/laudos-interface.png", title: "CFM 2.454/2026 na prática para clínicas de imagem", text: "Blog", text2: "Akira" },
-    { ariahidden: "true", ariaLabel: "Laudo estruturado: evidência e migração", href: "/blog/laudo-estruturado-evidencia-e-migracao", imgSrc: "/assets/laudos/opengraph-image.png", title: "Laudo estruturado: evidência e migração sem travar a rotina", text: "Blog", text2: "Natan" },
-    { ariahidden: "true", ariaLabel: "Transcrição em português com jargão radiológico", href: "/blog/transcricao-ptbr-jargao-radiologico", imgSrc: "/assets/laudos/laudos-interface.png", title: "Transcrição em português com jargão radiológico", text: "Blog", text2: "Akira" }
+    { ariahidden: "false", ariaLabel: "CFM 2.454/2026 na prática para clínicas de imagem", href: "/blog/cfm-2454-2026-na-pratica", imgSrc: "/assets/laudos/laudos-blog-cfm.webp", title: "CFM 2.454/2026 na prática para clínicas de imagem", text: "Blog", text2: "Akira" },
+    { ariahidden: "true", ariaLabel: "Laudo estruturado: evidência e migração", href: "/blog/laudo-estruturado-evidencia-e-migracao", imgSrc: "/assets/laudos/laudos-blog-structured.webp", title: "Laudo estruturado: evidência e migração sem travar a rotina", text: "Blog", text2: "Natan" },
+    { ariahidden: "true", ariaLabel: "Transcrição em português com jargão radiológico", href: "/blog/transcricao-ptbr-jargao-radiologico", imgSrc: "/assets/laudos/laudos-blog-dictation.webp", title: "Transcrição em português com jargão radiológico", text: "Blog", text2: "Akira" }
 ];
 /** Latest Updates section. */
 export default function LatestUpdatesSection({ logoData = Logo_data, mediaCardData = MediaCard_data } = {}) {

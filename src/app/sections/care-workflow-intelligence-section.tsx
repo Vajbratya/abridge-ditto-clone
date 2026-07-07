@@ -32,7 +32,7 @@ export default function CareWorkflowIntelligenceSection() {
         </div>
       </div>
       <div className="h-[764.7px] block absolute top-0 max-md:h-[636.5px] md:max-lg:h-[578.3px] 2xl:h-[889.1px]" data-cid="n444">
-        <img className="w-full h-full block absolute top-0 left-0 max-w-full overflow-clip object-cover align-middle" data-cid="n445" data-component="image" alt="" src="/assets/laudos/laudos-interface.png" />
+        <img className="w-full h-full block absolute top-0 left-0 max-w-full overflow-clip object-cover align-middle" data-cid="n445" data-component="image" alt="" src="/assets/laudos/laudos-workflow-room.webp" />
         <div className="h-[305.9px] min-h-2/5 block absolute bottom-0 inset-x-0 max-md:h-[15.9125rem] md:max-lg:h-[231.3px] 2xl:h-[22.225rem]" style={{ backgroundImage: "linear-gradient(var(--clr-5), var(--background))" }} data-cid="n446" />
       </div>
     </section>

@@ -64,7 +64,7 @@ export default function HowItWorksSection({ mediaLinkData = MediaLink_data, feat
                 </div>
               </div>
               <div className="flex justify-center items-start col-start-1 col-end-2 row-start-1 row-end-2 max-md:justify-start" data-cid="n515" id="w-node-_4fe86ae0-4a9a-5c97-cb39-8a4dfa9042bf-7a3581b6">
-                <img className="w-auto h-[39.0625rem] block relative -z-1 max-w-full max-h-[39.0625rem] -mt-[4.5625rem] overflow-clip object-contain align-middle max-md:h-56 max-md:max-h-56 max-md:mt-0" data-cid="n516" data-component="image" alt="Interface real da Laudos.AI para ditado e revisão de laudos" src="/assets/laudos/laudos-interface.png" />
+                <img className="w-auto h-[39.0625rem] block relative -z-1 max-w-full max-h-[39.0625rem] -mt-[4.5625rem] overflow-clip object-contain align-middle max-md:h-56 max-md:max-h-56 max-md:mt-0" data-cid="n516" data-component="image" alt="Fluxo visual Laudos.AI para ditado, revisão e assinatura de laudos" src="/assets/laudos/laudos-workflow-illustration.webp" />
               </div>
             </div>
           </div>
