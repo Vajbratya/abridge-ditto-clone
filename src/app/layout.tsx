@@ -7,6 +7,7 @@ import { SITE_ORIGIN } from "../lib/site";
 const title = "Laudos.AI · Software de laudo radiológico com IA assistiva";
 const description =
   "Software assistivo para clínicas de radiologia entregarem laudos mais rápidos, com menos digitação, menos retrabalho, revisão antes do envio e médico no controle.";
+const ogImage = "/assets/laudos/opengraph-image.png";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
@@ -19,14 +20,14 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "Laudos.AI",
-    images: ["/assets/laudos/laudos-interface.png"],
+    images: [ogImage],
     locale: "pt_BR",
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/assets/laudos/laudos-interface.png"],
+    images: [ogImage],
   },
   icons: {
     icon: "/assets/laudos/laudos-mark.svg",

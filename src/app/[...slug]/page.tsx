@@ -18,6 +18,8 @@ import {
   slugLabel,
 } from "../laudos-page-utils";
 
+const ogImage = "/assets/laudos/opengraph-image.png";
+
 type PageParams = {
   params: Promise<{ slug: string[] }>;
 };
@@ -48,13 +50,13 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
       description,
       type: page.slug.startsWith("blog/") ? "article" : "website",
       url: canonical,
-      images: ["/assets/laudos/laudos-interface.png"],
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Laudos.AI`,
       description,
-      images: ["/assets/laudos/laudos-interface.png"],
+      images: [ogImage],
     },
   };
 }
